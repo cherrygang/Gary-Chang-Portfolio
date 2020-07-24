@@ -10,3 +10,18 @@ header {
 section {
   padding: 150px 0;
 }
+
+.myName {
+    font-size:x-large;
+    padding: 0px 0;
+}
+
+.contactInfo {
+    font-size:small;
+    align-content:baseline;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
