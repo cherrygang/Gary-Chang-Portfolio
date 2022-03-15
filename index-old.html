@@ -16,11 +16,8 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Main CSS -->
-    <link href="css/main.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
-    <!-- <link href="css/scrolling-nav.css" rel="stylesheet"> -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
     <link href="css/bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet" />
     <link href="css/bootstrap-social-gh-pages/assets/css/font-awesome.css" rel="stylesheet" />
     <link href="css/open-iconic-bootstrap.css" rel="stylesheet" />
@@ -31,7 +28,7 @@
 
 <body id="page-top">
 
-    <!-- Navigation Bar-->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow" id="mainNav">
         <div class="container-fluid">
             <a class="navbar-brand js-scroll-trigger myName" href="#page-top">Gary Chang</a>
@@ -41,60 +38,34 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about" data-lightbox="about">About</a>
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services" data-lightbox="Resume">Portfolio</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact" data-lightbox="contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Home Page -->
-    <section class="text-white background-wallpaper">
-        <div class="container h-75 home-container">
-            <div class="row h-100 align-items-center justify-content-center">
-                <div class="col-12 col-lg-12 home-content">
-                    <h1 class="home-name">Gary Chang</h1>
-                    <h4 class="home-headline">Software Engineer</h4>
-                    <h6 class="directory-title">Directory</h6>
-                    <ul class="navbar-nav ml-auto text-white">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger directory-link" href="#about" data-lightbox="about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger directory-link" href="#services" data-lightbox="Resume">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger directory-link" href="#contact" data-lightbox="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header class="text-white background-wallpaper">
+        <div class="container text-center">
+            <h1>Software Engineer</h1>
         </div>
-    </section>
+    </header>
 
-    <!-- About Lightbox -->
-    <section id="about" class="lightbox">
-        <span class="close pointer">X</span>
-        <div class="container">
-            <h6 class="text-white text-center">Get to know me</h6>
-            <h1 class="text-white text-center">About Me</h1>
-        </div>
-        <div class="container-fluid text-white">
-            <div class="row align-items-center test">
+    <section id="about" class="about">
+        <div class="container-fluid">
+            <div class="row">
                 <div class="col-lg-6">
                     <img src="css/me4.jpg" class="about-me-pic" />
                 </div>
                 <div class="col-lg-5 mx-auto">
-                    <h2 class="h1-responsive font-weight-bold my-4">I'm Gary Chang a Software Engineer</h2>
-                    <p class="lead">I am a software engineer with a diverse background involving chemical engineering, biomedical engineer, and hospital IT currently based ouf of Seattle, WA. I am always looking for opportunities to utilize my diverse skillsets for the team and grow as an individual. 
-                        Having worked in many fields you can expect me to be very adaptable and a quick learner for catching to speed on new technologies to hit the ground running. Take a look through my <a href="css/Resume_Gary_Chang.pdf">resume</a>.
-                    </p>
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">About Me</h2>
+                    <p class="lead">Gary Chang is a software developer currently looking for entry-level software developer opportunities. Currently out of work, Gary is working on projects whille simultaneously looking for new opportunities.</p>
                     <p>
                         Skills:
                     </p>
@@ -105,22 +76,78 @@
                         <li>HTML/CSS</li>
                         <li>Matlab</li>
                     </ul>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <p>Outside of work my interests include cooking, bouldering, hiking, games, and ultimate frisbee. Feel free to check out my food blog where I post photos of new restaurants in Seattle that I try out every week in addition to any interesting dishes I have cooked.</p>
-                </div>
-                <div class="col-lg-5">
-                    Photo of most recent instagram post here? Or maybe just some good ones
+                    <p>
+                        Take a look through my <a href="css/Resume_Gary_Chang.pdf">resume</a>.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Lightbox -->
-    <section id="contact" class="lightbox text-white">
-        <span class="close pointer">X</span>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Portfolio</h2>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="" href="https://walnut.pythonanywhere.com/">
+                            <img class="img-fluid" src="css/indicator_webapp.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Market Analysis Webapp</div>
+                            <div class="portfolio-caption-subheading text-muted">Currently Under Construction</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="" href="http://dilettantedd.herokuapp.com/">
+                            <img class="img-fluid" src="css/ddblog.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Due Diligence Blog</div>
+                            <div class="portfolio-caption-subheading text-muted">Oct. 2020</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="" href="https://github.com/cherrygang/SwingTraderMarketScreener">
+                            <img class="img-fluid" src="css/market_screener_Img.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Market Screener</div>
+                            <div class="portfolio-caption-subheading text-muted">Sep. 2020</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="" href="https://github.com/cherrygang/Gary-Chang-Portfolio">
+                            <img class="img-fluid" src="css/potfolioImg.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Portfolio Page</div>
+                            <div class="portfolio-caption-subheading text-muted">Aug. 2020</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="" href="https://codepen.io/cherrygang">
+                            <img class="img-fluid" src="css/codepenImg.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">FreeCodeCamp Projects</div>
+                            <div class="portfolio-caption-subheading text-muted">Jan. 2020</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="contact">
         <div class="container">
             <!--Section heading-->
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
@@ -158,31 +185,22 @@
                         <span class="fa fa-facebook"></span> https://www.facebook.com/cherrygang
                     </a>
                 </div>
-            </div>
-        </div>
-    </section>
+                <!--Grid column-->
+                <!--Grid column-->
+                <!--Grid column-->
 
-    <!-- Footer -->
-    <footer class="py-3 bg-dark fixed-bottom">
-        <div class="container-footer">
-            <div class="footer-left"></div>
-            <p class="m-0 text-center text-white footer-center">Built by Gary Chang</p>
-            <!-- Social Media Icons -->
-            <div class="social-buttons social-block footer-right">
-                <a class="btn btn-social-icon btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-linkedin']);" href="https://www.linkedin.com/in/garychang00/">
-                    <span class="fa fa-linkedin"></span>
-                </a>
-                <a class="btn btn-social-icon btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-github']);" href="https://github.com/cherrygang">
-                    <span class="fa fa-github"></span>
-                </a>
-                <a class="btn btn-social-icon btn-instagram" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-instagram']);" href="https://www.instagram.com/garlicdumps/">
-                    <span class="fa fa-instagram"></span>
-                </a>
-                <a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-facebook']);" href="https://www.facebook.com/cherrygang">
-                    <span class="fa fa-facebook"></span>
-                </a>
             </div>
         </div>
+
+         
+    </section>
+    <!--Section: Contact v.2-->
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Property of Gary Chang</p>
+        </div>
+        <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -194,9 +212,6 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-
-    <!-- Custom Main Javascript -->
-    <script src="js/main.js"></script>
 
 </body>
 

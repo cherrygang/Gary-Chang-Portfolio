@@ -23,4 +23,14 @@
     this.parentElement.style.display = 'none'
   })
 
+  $(document).ready(function() {
+    $('.skill').each(function(e) {
+      var percentage = this.dataset.percentage
+      var bar = this.querySelector('.progress-bar')
+      var pDisplay = this.querySelector('.skill-info')
+      $(bar).css('width', percentage + '%')
+      $(pDisplay).css('width', percentage + '%')
+    })
+  })
+
 })(jQuery);

@@ -97,9 +97,6 @@
   .text-muted {
       color: #6c757d !important;
   }
-  .portfolio-caption-heading {
-  
-  }
   
   .portfolio .portfolio-item .portfolio-item-caption {
       position: absolute;
@@ -193,6 +190,10 @@
       background-color: rgb(24, 24, 24);
   }
 
+  .directory {
+      float: left;
+  }
+
   .directory-link {
       color: inherit;
   }
@@ -203,4 +204,110 @@
 
   .home-container {
       margin-left: 8vw;
+  }
+
+  .col-block.education {
+    margin-right: 20px
+  }
+
+  .col-block.experience {
+      margin-left: 20px
+  }
+
+  .col-title {
+      font-size: 26px;
+      margin-bottom: 20px;
+  }
+
+  .history-item{
+      background-color: #161616;
+      border-left: 2px solid transparent;
+      border-left-color: #009e66;
+      padding:32px 48px;
+      position: relative;
+
+  }
+
+  .history-item:not(:last-child) {
+      border-bottom: 1px solid #313131;
+  }
+
+  .history-item:last-child{
+      margin-bottom: 0px;
+  }
+
+  .history-container {
+      max-width: 1200px;
+  }
+
+  .item-arrow{
+      left:0;
+      margin-top:2px;
+      position:absolute
+  }
+
+  .item-arrow:before{
+      background-color:#009e66;
+      height: 16px;
+      left: 0;
+      width: 16px;
+      content: "";
+      display: block;
+      position: absolute;
+  }
+
+  .item-arrow:after {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #009e66;
+    left: 16px;
+    content: "";
+    display: block;
+    position: absolute;
+  }
+
+  .section-title {
+      font-size: 46px;
+      margin-bottom: 37px;
+      margin-top: 1em;
+      font-weight: 500;
+  }
+
+  .skill-name {
+      display: inline-block;
+      margin-right: 12px;
+      white-space: nowrap;
+  }
+
+  .skill-info {
+      -ms-flex-pack: justify;
+      color: #cecece;
+      display: flex;
+      font-size: 16px;
+      justify-content: space-between;
+      margin-bottom: 4px;;
+  }
+
+  .skill {
+      margin-bottom: 40px!important
+  }
+
+  .skill-progress {
+      background-color: #2f2f2f;
+      border-radius: 1px;
+      font-size: 15px;
+      height: 9px;
+      overflow: visible;
+  }
+
+  .progress-bar {
+      border-bottom-left-radius: 1px;
+      border-top-left-radius: 1px;
+      background-color: #009e66;
+  }
+
+  .about-other-section {
+      margin-top: 1em;
   }
